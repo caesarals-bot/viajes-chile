@@ -1,9 +1,10 @@
+/* variables */
 :root {
     --blue: #14d6dd;
     --white: #FFFFFF;
     --black: #000000;
 }
-
+/* Globales */
 html {
     box-sizing: border-box;
 }
@@ -14,7 +15,23 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    background-color: var(--black);
+}
+/* Imagenes responsivas */
 img {
     width: 100%;
 }
 
+
+/* pocisionamos el navbar, lo enviamos adelante */
+.header {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+}
+
+.logo-viajes {
+    width: 30px;
+}
