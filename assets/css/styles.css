@@ -3,6 +3,7 @@
     --blue: #14d6dd;
     --white: #FFFFFF;
     --black: #000000;
+    --lightgrey: #DDDDDD;
 }
 /* Globales */
 html {
@@ -17,12 +18,17 @@ html {
 
 body {
     background-color: var(--black);
+    margin: 0;
 }
 /* Imagenes responsivas */
 img {
     width: 100%;
 }
 
+.bg-color-blue {
+    background-color: var(--blue);
+    text-align: center;
+}
 
 /* pocisionamos el navbar, lo enviamos adelante */
 .header {
@@ -34,4 +40,18 @@ img {
 
 .logo-viajes {
     width: 30px;
+}
+
+.quienes-somos {
+    color: var(--white);
+}
+
+.quienes-somos img{
+    width: 25px;
+    filter: invert(1);
+    padding: 2px;
+}
+
+.text-grey {
+    color: var(--lightgrey)!important;
 }
