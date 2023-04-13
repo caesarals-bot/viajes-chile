@@ -19,12 +19,23 @@ html {
 body {
     background-color: var(--black);
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
 }
 /* Imagenes responsivas */
 img {
     width: 100%;
 }
 
+.color-text-blue {
+    color: var(--blue);
+}
+.color-text-red {
+    color: red;
+}
 .bg-color-blue {
     background-color: var(--blue);
     text-align: center;
